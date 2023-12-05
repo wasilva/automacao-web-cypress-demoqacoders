@@ -33,23 +33,25 @@ Projeto de automação web com Cypress, com ele você irá conseguir escrever se
 - NodeJs - https://nodejs.org/en/download
 - VSCODE - https://code.visualstudio.com/download
 
-### Documentos de refência
+### Documentos de referência
 - Cypress - https://www.cypress.io/
+- Cypress Exemplos para comandos:
+    - https://example.cypress.io/commands/actions
 
 ## Configurando ambiente para começar a usar o Cypress
 Agora iremos configurar o ambiente para podermos iniciar nosso projeto com o Cypress.
 
-## 01 Instalação inicial
-*** Faça o download o NodeJS e instale a versão compatível com seu Sistema Operacional;
-*** Faça o download e instale o VSCODE ou outra IDE de sua preferência;
-*** Faça o clone do repositório do projeto de automação web com cypress;
+### 01 Instalação inicial
+- Faça o download o NodeJS e instale a versão compatível com seu Sistema Operacional;
+- Faça o download e instale o VSCODE ou outra IDE de sua preferência;
+- Faça o clone do repositório do projeto de automação web com cypress;
 
-## Instalando o Cypress
+### 02 Instale o Cypress
 ```bash
 npm install cypress --save-dev
 ```
 
-## Observações
+### 03 Observação
 Está configurado no package.json, um bloco de script para executar o cypress
 
 ```bash
@@ -59,7 +61,7 @@ Está configurado no package.json, um bloco de script para executar o cypress
 ```
 A sintaxe "cypress:open" determina como será executado o cypress, recebendo a istrução padrão "cypress open"
 
-## Iniciando o cypress
+### 04 Executando o cypress
 
 ```bash
    npm run cypress:open
