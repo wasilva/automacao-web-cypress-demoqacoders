@@ -13,8 +13,8 @@ Projeto de automação web com Cypress, com ele você irá conseguir escrever se
 - Mínimo de 2 CPUs para rodar o Cypress
 - 1 CPU adicional se a gravação de vídeo estiver ativada
 - 1 CPU adicional por processo executado fora do Cypress, como:
-- Servidor de aplicativos (frontend)
-- Servidor de aplicativos (back-end)
+    - Servidor de aplicativos (frontend)
+    - Servidor de aplicativos (back-end)
 - Banco de dados de aplicativos
 - Qualquer infraestrutura adicional (Redis, Kafka, etc.)
 
@@ -24,3 +24,49 @@ Projeto de automação web com Cypress, com ele você irá conseguir escrever se
 ### NodeJS
 - Node.js 18.x
 - Node.js 20.x ou superior
+
+### IDE
+- VSCODE
+- Qualquer outra de sua preferência
+
+### Links de instalação
+- NodeJs - https://nodejs.org/en/download
+- VSCODE - https://code.visualstudio.com/download
+
+### Documentos de refência
+- Cypress - https://www.cypress.io/
+
+## Configurando ambiente para começar a usar o Cypress
+Agora iremos configurar o ambiente para podermos iniciar nosso projeto com o Cypress.
+
+## 01 Instalação inicial
+*** Faça o download o NodeJS e instale a versão compatível com seu Sistema Operacional;
+*** Faça o download e instale o VSCODE ou outra IDE de sua preferência;
+*** Faça o clone do repositório do projeto de automação web com cypress;
+
+## Instalando o Cypress
+```bash
+npm install cypress --save-dev
+```
+
+## Observações
+Está configurado no package.json, um bloco de script para executar o cypress
+
+```bash
+"scripts": {
+    "cypress:open": "cypress open"
+  }
+```
+A sintaxe "cypress:open" determina como será executado o cypress, recebendo a istrução padrão "cypress open"
+
+## Iniciando o cypress
+
+```bash
+   npm run cypress:open
+```
+
+Pronto agora é só criar seus cenários de testes e aproveitar o melhor da ferramenta.
+
+Obrigado por consumirem nossos conteúdos.
+
+Qa.Coders Academy Formando Profissionais de Qualidade.
