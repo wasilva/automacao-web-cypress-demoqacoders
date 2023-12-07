@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.684" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-07T07:58:41" tests="0" file="cypress\e2e\teste.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Seu teste" timestamp="2023-12-07T07:58:41" tests="1" time="0.617" failures="0">
+    <testcase name="Seu teste Deve acessar variáveis de ambiente" time="0.362" classname="Deve acessar variáveis de ambiente">
+    </testcase>
+  </testsuite>
+</testsuites>
