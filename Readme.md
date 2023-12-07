@@ -37,6 +37,7 @@ Projeto de automação web com Cypress, com ele você irá conseguir escrever se
 - Cypress:
     - https://www.cypress.io/
     - https://example.cypress.io/commands/actions
+    - https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Folder-Structure
 
 ## Configurando ambiente para começar a usar o Cypress
 Agora iremos configurar o ambiente para iniciarmos nosso projeto com o Cypress. Para isso é necessário realizar o download da IDE do VSCODE 
@@ -49,8 +50,11 @@ Agora iremos configurar o ambiente para iniciarmos nosso projeto com o Cypress. 
 ```bash
 npm install cypress --save-dev
 ```
-
-### 03 Observação
+### 03 Instale o dotenv, para consumir massa de test de arquivo .env 
+```bash
+npm install --save-dev dotenv
+```
+### 04 Observação
 Está configurado no package.json, um bloco de script para executar o cypress
 
 ```bash
@@ -60,7 +64,7 @@ Está configurado no package.json, um bloco de script para executar o cypress
 ```
 A sintaxe "cypress:open" determina como será executado o cypress, recebendo a instrução padrão "cypress open"
 
-### 04 Executando o cypress
+### 05 Executando o cypress
 
 ```bash
    npm run cypress:open

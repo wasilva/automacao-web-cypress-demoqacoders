@@ -1,0 +1,6 @@
+{
+    "email":"#email",
+    "password":"#password",
+    "msgAlertEmail":"[class='MuiAlert-message css-1xsto0d']",
+    "btnEntrar":"#login"
+}

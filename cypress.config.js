@@ -12,5 +12,6 @@ module.exports = defineConfig({
   videoCompression: false,
   videosFolder: 'cypress/videos',
   reporter: 'spec',
-  reporterOptions: null,
+  reporterOptions: null
+
 });
