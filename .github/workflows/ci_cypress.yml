@@ -22,10 +22,10 @@ jobs:
         run: npm install
 
       - name: Install Cypress
-        run: npx cypress install
+        run: npm install --save-dev cypress@latest
 
       - name: Run Cypress Tests
-        run: npx cypress run --record --key ${{ secrets.CYPRESS_RECORD_KEY }} --video --videoUploadOnPasses --env videoUploadOnPasses=true
+        run: npx cypress run --record --key YOUR_RECORD_KEY --video --video-upload-on-passes --env videoUploadOnPasses=true
 
       - name: Publish Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
