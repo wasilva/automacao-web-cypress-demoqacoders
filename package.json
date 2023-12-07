@@ -1,11 +1,12 @@
 {
   "devDependencies": {
     "cypress": "^13.6.1",
-    "cypress-video": "^1.4.0"
+    "cypress-video": "^1.4.0",
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "dotenv -e .env cypress run"
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "dotenv": "^16.3.1"

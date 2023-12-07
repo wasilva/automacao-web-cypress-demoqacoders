@@ -1,9 +1,15 @@
 /// <reference types="cypress" />
+const { afterEach } = require('mocha');
 const data1 = require('../fixtures/data.json')
 
 beforeEach(() => {
     cy.visit('https://automacao.qacoders-academy.com.br/login')
 });
+
+afterEach(() =>{
+    cy.screenshot()
+})
+
 
 describe('Login', () => {
     it('Login com sucesso', () => {
