@@ -21,8 +21,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Install Cypress
-        run: npm install cypress --save-dev
-
       - name: Run Cypress Tests
-        run: npm run cypress:run
+        run: npm run cypress:run:report
+
+      - name: Publish Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports
