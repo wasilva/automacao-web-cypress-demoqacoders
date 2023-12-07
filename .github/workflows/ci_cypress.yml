@@ -18,10 +18,10 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install Dependencies
+      - name: Install Node
         run: npm install
 
-      - name: Install Dependencies
+      - name: Install Cypress
         run: npm install cypress --save-dev
         
       - name: Run Cypress Tests
