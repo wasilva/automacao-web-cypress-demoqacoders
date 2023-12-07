@@ -7,6 +7,8 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run:report": "cypress run --reporter junit --reporter-options junitReportPath=reports/junit.xml"
+    "cypress:run:video": "cypress run --record --key yourRecordKey --video --videoUploadOnPasses --env videoUploadOnPasses=true"
+}
   },
   "dependencies": {
     "dotenv": "^16.3.1"
